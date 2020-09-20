@@ -11,7 +11,7 @@ import * as msal from 'msal';
 
     const config: msal.Configuration = {
       auth: {
-        clientId: 'fc19440a-334e-471e-af53-a1c1f53c9226',
+        clientId: '44e649e4-936d-4d3d-8d4e-cbb3bbaf8bfa',
         authority: 'https://login.microsoftonline.com/common',
         redirectUri: 'https://localhost:3000/login/login.html'
       },

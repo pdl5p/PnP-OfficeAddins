@@ -13,7 +13,7 @@ export default class StartPageBody extends React.Component<StartPageBodyProps> {
 
         return (
             <div className='ms-welcome'>
-                <HeroList message='This add-in performs the following tasks:' items={listItems}>
+                <HeroList message='This add-in does the following:' items={listItems}>
                 </HeroList>
                 <div className='ms-welcome__main'>
                     <Button className='ms-welcome__action' buttonType={ButtonType.hero} iconProps={{ iconName: 'ChevronRight' }} onClick={login}>Connect to Office 365</Button>
